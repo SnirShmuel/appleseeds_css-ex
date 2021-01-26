@@ -2,7 +2,7 @@
     width: 400px;
     height: 400px;
     background-color: burlywood;
-    box-shadow: 5px 10px 18px #888888:
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 img{
@@ -12,8 +12,14 @@ img{
 
 a{
     color: chocolate;
+    margin: 4px 4px 4px 0px;
 }
 
 h3{
     font-weight: bolder;
+    margin: 4px 4px 4px 0px;
+}
+
+p{
+    margin: 4px 4px 4px 0px;
 }
