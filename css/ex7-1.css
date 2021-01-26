@@ -1,0 +1,41 @@
+header{
+    background-color: orange;
+    text-align: center;
+    border-width: thin;
+    border-style: solid;
+    padding: 20px 10px;
+    margin: 5px 0px;
+}
+
+main{
+    background-color: purple;
+    text-align: right;
+    float: right;
+    border-width: thin;
+    border-style: solid;
+    height: 300px;
+    width: 60%;
+}
+
+aside{
+    background-color: green;
+    text-align: left;
+    float: left;
+    border-width: thin;
+    border-style: solid;
+    height: 300px;
+    width: 38%;
+}
+
+footer{
+    background-color: lightskyblue;
+    text-align: center;
+    border-width: thin;
+    border-style: solid;
+    padding: 20px 10px;
+    margin: 5px 0px;
+}
+
+div{
+    clear: both;
+}
