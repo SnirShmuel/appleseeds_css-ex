@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+
+.container{
+    max-width: 960px;
+    margin: 30px auto;
+
+}
+
+.card {
+    border: 1px solid #ccc;
+    color: cornsilk;
+    font-family: 'Potta One', cursive;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    background-image: url("https://images.pond5.com/star-wars-abstract-leap-hyperspace-footage-130046156_iconl.jpeg");
+    box-shadow: 10px 10px 5px #aaaaaa;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    max-width: 68%;
+    float: left;
+    text-align: center;
+}
+
+.card a{
+    color: wheat;
+}
+
+article{
+    float: right;
+    max-width: 30%;
+}
+
+
+
+.enhance {
+    color: yellowgreen;
+    background-color: black;
+}
+
+.clear{
+    clear: both;
+}
