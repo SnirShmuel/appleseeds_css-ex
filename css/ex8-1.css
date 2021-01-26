@@ -1,0 +1,56 @@
+body {
+    padding: 10px 20px;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.round button {
+    border-radius: 7px;
+}
+
+.big {
+    font-size: 24px;
+    margin: 10px 20px;
+    padding: 14px 40px;
+}
+
+.med {
+    font-size: 16px;
+    margin: 10px 20px;
+    padding: 12px 28px;
+}
+
+.small {
+    font-size: 10px;
+    margin: 10px 20px;
+    padding: 10px 24px;
+}
+
+.fghost button {
+    border-style: solid;
+    border-color: palegreen;
+}
+
+.fghost button:hover {
+    background-color: palegreen;
+}
+
+.fghost button:active {
+    box-shadow: 0 5px palegreen;
+    transform: translateY(4px);
+}
+
+.rghost button {
+    border-style: solid;
+    border-color: greenyellow;
+    border-radius: 7px;
+}
+
+.rghost button:hover {
+    background-color: greenyellow;
+}
+
+.rghost button:active {
+    box-shadow: 0 5px greenyellow;
+    transform: translateY(4px);
+}
