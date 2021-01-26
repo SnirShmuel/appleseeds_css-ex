@@ -1,0 +1,22 @@
+.card {
+    border: 1px solid #ccc;
+    color: cornsilk;
+    font-family: 'Potta One', cursive;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-image: url("https://images.pond5.com/star-wars-abstract-leap-hyperspace-footage-130046156_iconl.jpeg");
+    box-shadow: 10px 10px 5px #aaaaaa;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card a{
+    color: wheat;
+}
+
+.enhance {
+    color: yellowgreen;
+    background-color: black;
+}
+
