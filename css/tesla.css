@@ -1,0 +1,101 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Logo */
+.logo {
+  max-width: 50px;
+  max-height: 25px;
+}
+
+/* Navbar */
+#navbar {
+  background: transparent;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #444;
+  color: #f7c08a;
+}
+
+.model3 {
+  height: 1010px;
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/b03da2fc-ecaa-4554-8df9-8f73e411f360/bvlatuR/std/2880x1800/model-3-hero-desktop");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Bouncing arrow */
+.arrow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -20px;
+  /* width: 50px;
+  height: 50px; */
+
+  /**
+   * Dark Arrow Down
+   */
+  /* background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxMDAgMTAwJyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSd4TWlkWU1pZCBNZWV0JyB3aWR0aD0nMTAwJyBoZWlnaHQ9JzEwMCc+PHBhdGggZD0nTTEwMCA1LjVjMCAxLjMtLjUgMi42LTEuNSAzLjVMNTAgNTcuNSAxLjUgOWMtMi0yLTItNS4xIDAtNy4xczUuMS0yIDcuMSAwTDUwIDQzLjQgOTEuNSAxLjljMi0yIDUuMS0yIDcuMSAwIC45IDEgMS40IDIuMyAxLjQgMy42eicvPjwvc3ZnPg==); */
+  background-size: contain;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.safety {
+  height: 1010px;
+  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/b03da2fc-ecaa-4554-8df9-8f73e411f360/bvlatuR/std/2880x1800/model-3-hero-desktop");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
