@@ -173,6 +173,47 @@ body {
   display: block;
 }
 
+/* Left Side Nav */
+.sidenav {
+  position: fixed;
+  top: 40%;
+  left: 0;
+  width: 13%;
+  padding-left: 15px;
+  z-index: 400;
+  left: 1%;
+  border: 1px solid;
+}
+.sidenav ol {
+  list-style: none;
+  margin: 0;
+  padding-top: 15px;
+}
+.sidenav ol li {
+  display: block;
+  font-weight: 300;
+  width: 73%;
+  margin-bottom: 10px;
+}
+.sidenav ol li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  visibility: hidden;
+  text-shadow: 2px 2px 3px black;
+}
+.sidenav ol li:hover a {
+  visibility: visible;
+}
+.sidenav .wl-sidenav {
+  visibility: visible;
+  box-shadow: 1px 1px 3px black;
+}
+.sidenav ol li a:active .wl-sidenav {
+  border-left: 4px solid #fff;
+}
+
 /* Navbar */
 nav {
   position: absolute;
@@ -261,14 +302,102 @@ nav {
 /* safety section */
 .safety {
   height: 1010px;
-  background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/b03da2fc-ecaa-4554-8df9-8f73e411f360/bvlatuR/std/2880x1800/model-3-hero-desktop");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #fff;
+}
+
+.leftside {
+  border: 1px solid;
+  float: left;
+  width: 20%;
+  height: 100%;
+  background-color: #fff;
+  padding: 30px 50px;
 }
 
 .logo-pos {
   position: relative;
+  bottom: 1%;
+  right: 1%;
+}
+
+.safety .paragraph {
+  line-height: 1.7;
+}
+.rating-box {
+  background-color: #eeeeee;
+  border-radius: 25px;
+  padding: 20px 20px;
+  margin-top: 15px;
+}
+.rating-box h4 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 21px;
+  margin-bottom: 15px;
+  color: #171a20;
+}
+.rating-box .margin-bottom-small h5 {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 14px;
+  color: #393c41;
+}
+.rating-box .lefttext,
+.rating-box .righttext {
+  width: 48%;
+  display: inline-block;
+}
+.rating-box .righttext p {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+#safety .btn-plus {
+  margin: 0 10px 0 0;
+}
+#safety .margin-top-big {
+  text-align: center;
+}
+
+.rightside {
+  border: 1px solid;
+  float: right;
+  width: 80%;
+  height: 100%;
+  background: url("../img/section2.png") no-repeat center center/cover;
+}
+
+.returnarrow-pos {
+  position: relative;
   bottom: -1%;
-  right: -1%;
+  right: -98%;
+}
+
+/* section 9 order */
+.order {
+  height: 1010px;
+  background: url("../img/section9.png") no-repeat center center/cover;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 25px;
+  background-color: #000;
+  bottom: -100%;
+}
+.footer ol {
+  list-style: none;
+  margin: 0;
+}
+.footer ol li {
+  display: inline;
+  margin-right: 20px;
+}
+.footer ol li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
 }
