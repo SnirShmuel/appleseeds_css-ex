@@ -7,6 +7,7 @@
 .flex-container{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   background-color: black;
 }
@@ -23,10 +24,12 @@
 
 .logo{
   justify-self: flex-start;
+  align-self: flex-start;
 }
 
 .items{
   justify-self: flex-end;
+  align-self: flex-end;
 }
 
 @media (max-width: 641px) {
